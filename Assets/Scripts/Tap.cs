@@ -29,4 +29,7 @@ public class Tap : MonoBehaviour
         }
     }
     }
+    void ButtonExt(){
+        Debug.Log("Extintor seleccionado");
+    }
 }
