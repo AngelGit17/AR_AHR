@@ -2,12 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Botons : MonoBehaviour
 {
-    public GameObject Inc;
-    public GameObject Sis;
-    public GameObject Men;
 
     // Start is called before the first frame update
     void Start()
@@ -16,16 +14,13 @@ public class Botons : MonoBehaviour
     }
 
 public void ButtonInc(){
-    Inc.SetActive(true);
-    Sis.SetActive(false);
-    Men.SetActive(false);
+        SceneManager.LoadScene("Incendio");
+        print("hello");
 }
 public void ButtonSism(){
-    Sis.SetActive(true);
-    Inc.SetActive(false);
-    Men.SetActive(false);
+        SceneManager.LoadScene("Sismo"); 
 }
-public void ButtonMen(){
-    Men.SetActive(true);
-}
+//public void ButtonMen(){
+  //  Men.SetActive(true);
+//}
 }
