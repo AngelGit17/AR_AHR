@@ -15,7 +15,6 @@ public class Botons : MonoBehaviour
 
 public void ButtonInc(){
         SceneManager.LoadScene("Incendio");
-        print("hello");
 }
 public void ButtonSism(){
         SceneManager.LoadScene("Sismo"); 

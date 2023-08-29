@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Extintor
   - reticula
+  - Reticle
+  - Humo
+  - humo
   layers:
   - Default
   - TransparentFX
