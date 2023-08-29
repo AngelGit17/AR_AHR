@@ -63,6 +63,7 @@ public class Timer5 : MonoBehaviour
         //SceneManager.LoadScene("Loading screen");
         //sign.SetActive(true);
         Polvo.SetActive(true);
+        sonido.SetActive(false);
         safezone.SetActive(true);
         texto.SetActive(true);
         textoNum.SetActive(true);
