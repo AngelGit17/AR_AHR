@@ -8,6 +8,7 @@ public class TipodeIncendio : MonoBehaviour
     public GameObject Inc2;
     public GameObject Inc3;
     private float elapsed = 0f;
+    public GameObject Summary;
     int value;
     // Start is called before the first frame update
 
@@ -36,5 +37,9 @@ public class TipodeIncendio : MonoBehaviour
     void FixedUpdate()
     {
         
+    }
+
+    public void Salir(){
+        Summary.SetActive(true);
     }
 }

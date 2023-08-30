@@ -9,6 +9,7 @@ public class Timer5 : MonoBehaviour
 {
     //public GameObject sign;
     public GameObject safezone;
+    public GameObject anim;
     public float Tiempo = 5;
     public Text timerText;
     public GameObject texto;
@@ -63,6 +64,7 @@ public class Timer5 : MonoBehaviour
         //SceneManager.LoadScene("Loading screen");
         //sign.SetActive(true);
         Polvo.SetActive(true);
+        anim.SetActive(true);
         sonido.SetActive(false);
         safezone.SetActive(true);
         texto.SetActive(true);

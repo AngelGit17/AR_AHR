@@ -11,7 +11,7 @@ public class Timer50 : MonoBehaviour
 
 
     //Timer 5seg
-    //public Safe desp;
+    public BotonsSis desp;
 
     public float Tiempo = 54;
     public Text timerText;
@@ -28,7 +28,7 @@ public class Timer50 : MonoBehaviour
 
 void Start(){
 
-    //desp = FindObjectOfType<Safe>();
+    desp = FindObjectOfType<BotonsSis>();
     play = true;
 }
     // Update is called once per frame
@@ -51,7 +51,7 @@ void Start(){
         //}
         }
         
-        if(ImaBot.activeSelf && ImaMoc.activeSelf && ImaVol.activeSelf && Final.activeSelf){
+        if(desp.timerfin == true){
             
             play = false;
         }    
