@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,6 +22,7 @@ public class Tap : MonoBehaviour
     public GameObject extintoranim2;
 
     public GameObject XIcon;
+    public GameObject Aviso;
     
     
     public bool ActBut = true;
@@ -70,6 +72,7 @@ public class Tap : MonoBehaviour
         extinv.SetActive(true);
         coll2.SetActive(false);
         coll1.SetActive(false);
+        Aviso.SetActive(true);
         ActBut=false;
     }
     public void ButtonExtOn(){
@@ -82,6 +85,7 @@ public class Tap : MonoBehaviour
         extintor1.SetActive(false);
         extinv1.SetActive(true);
         coll2.SetActive(false);
+        Aviso.SetActive(true);
         coll3.SetActive(false);
         ActBut=false;
     }
@@ -96,6 +100,7 @@ public class Tap : MonoBehaviour
         extinv2.SetActive(true);
         coll1.SetActive(false);
         coll3.SetActive(false);
+        Aviso.SetActive(true);
         ActBut=false;
     }
     public void ButtonExtOn2(){
@@ -110,6 +115,7 @@ public class Tap : MonoBehaviour
         extintoranim.SetActive(false);
         extintoranim1.SetActive(false);
         extintoranim2.SetActive(false);
+        XIcon.SetActive(false);
         
         }
     }

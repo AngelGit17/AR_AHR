@@ -13,6 +13,7 @@ public class TriggersFuego : MonoBehaviour
     public GameObject imag1;
     public GameObject imag2;
     public GameObject imag3;
+    public GameObject collcanv;
     
     
     public GameObject canvinfo;
@@ -47,6 +48,7 @@ public class TriggersFuego : MonoBehaviour
     {
 
         if(other.tag == "reticula"){
+
         // Add scene info to the same scene SceneManager.LoadScene("Planta1", LoadSceneMode.Additive);
         
         //SceneManager.LoadScene("Loading screen");
